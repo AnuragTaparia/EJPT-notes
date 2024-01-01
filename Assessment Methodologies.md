@@ -75,6 +75,7 @@
 - `enum4linux -o 10.12.23.4` -- to give OS info 
 - `enum4linux -S 10.12.23.4` -- to give shares info 
 - `enum4linux -G 10.12.23.4` -- to give groups info 
+- `enum4linux -a 10.12.23.4` -- to give info 
 - `enum4linux -r -u "<USERNAME>" -p "<PASSWORD>" 192.212.251.3` -- to give SID
 
 - When connect via rpcclient
@@ -101,7 +102,7 @@
 	> exploit
 
 ###### FTP Lesson
-- `hydra -l <USERNAME> -P /path/to/password/file 10.12.23.4 <protocol> `  -- to brute force to get login details
+- `hydra -l <USERNAME or /path/to/user.txt> -P /path/to/password/file 10.12.23.4 <protocol> -t 4`  -- to brute force to get login details
 - `nmap 10.12.23.4 --script ftp-brute --script-args userdb=/path/to/users.txt/file -p 21` -- to brute force to get login details 
 - `nmap 10.12.23.4 -p 21 --script ftp-anon`
 
@@ -109,7 +110,7 @@
 - `nmap 10.12.23.4 -p 22 --script ssh2-enum-algos` -- to get algo used for creating key
 - `nmap 10.12.23.4 -p 22 --script ssh-hostkey --script-args ssh_hostkey=full` -- to get ssh rsa hostkey
 - `nmap 10.12.23.4 -p 22 --script ssh-auth-methods --script-args="ssh.user=<USERNAME>"` -- to check for weak authentication 
-- `hydra -l <USERNAME> -P /path/to/password/file 10.12.23.4 <protocol> `  -- to brute force to get login details
+- `hydra -l <USERNAME or /path/to/user.txt> -P /path/to/password/file 10.12.23.4 <protocol> `  -- to brute force to get login details
 - `nmap 10.12.23.4 --script ssh-brute --script-args userdb=/path/to/users.txt/file -p 22` -- to brute force to get login details 
 - using msfconsole
 	> msfconsole 

