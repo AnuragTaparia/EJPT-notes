@@ -16,42 +16,6 @@
             }
           },
           {
-            "id": "550ec9679a79c48b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assessment Methodologies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4915e2a87013fabe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Host & Network Penetration Testing - System and Host Based Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd523bd2bccdfc3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Host & Network Penetration Testing - Network Based Attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "36c33d94875ce470",
             "type": "leaf",
             "state": {
@@ -64,7 +28,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +47,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -193,6 +157,13 @@
   },
   "active": "36c33d94875ce470",
   "lastOpenFiles": [
+    "Host & Network Penetration Testing - Network Based Attacks.md",
+    "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
+    "Assessment Methodologies.md",
+    "images/Frequently Exploited Windows Services.png",
+    "images/Frequently Exploited Linux Services.png",
+    "images/MSF Module Variables.png",
+    "Host & Network Penetration Testing - System and Host Based Attacks.md",
     "course files by INE/Host and Network Penetration Testing/The Metasploit Framework MSF Course File/The Metasploit Framework MSF.pdf",
     "course files by INE/Host and Network Penetration Testing/The Metasploit Framework MSF Course File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF.pdf",
     "course files by INE/Host and Network Penetration Testing/The Metasploit Framework MSF Course File/__MACOSX/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File",
@@ -202,13 +173,6 @@
     "course files by INE/Host and Network Penetration Testing/The Metasploit Framework MSF Course File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File",
     "course files by INE/Host and Network Penetration Testing/The Metasploit Framework MSF Course File",
     "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File.zip",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File/__MACOSX/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File",
-    "Host & Network Penetration Testing - Network Based Attacks.md",
-    "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
-    "Assessment Methodologies.md",
-    "Host & Network Penetration Testing - System and Host Based Attacks.md",
-    "images/Frequently Exploited Linux Services.png",
-    "images/Frequently Exploited Windows Services.png"
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF-Course-File/INE-Host-and-Network-Penetration-Testing-The-Metasploit-Framework-MSF.pdf"
   ]
 }
