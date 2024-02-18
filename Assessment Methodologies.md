@@ -11,6 +11,7 @@
  - `sublist3r -d example.com`
  - [wayback machine](https://web.archive.org/)
  - for [google dork](https://www.exploit-db.com/google-hacking-database)
+ - [netcraft](https://www.netcraft.com/)
 
 ###### Active Information gathering
  - `dnsenum example.com` -- for zone transfer, or 

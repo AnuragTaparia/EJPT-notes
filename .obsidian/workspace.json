@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
+                "file": "Host & Network Penetration Testing - System and Host Based Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
+                "file": "Host & Network Penetration Testing - System and Host Based Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
+                "file": "Host & Network Penetration Testing - System and Host Based Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Host & Network Penetration Testing - The Metasploit Framework (MSF).md"
+                "file": "Host & Network Penetration Testing - System and Host Based Attacks.md"
               }
             }
           }
@@ -157,10 +157,11 @@
   },
   "active": "36c33d94875ce470",
   "lastOpenFiles": [
+    "Assessment Methodologies.md",
+    "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
     "Host & Network Penetration Testing - System and Host Based Attacks.md",
     "Host & Network Penetration Testing - Network Based Attacks.md",
-    "Host & Network Penetration Testing - The Metasploit Framework (MSF).md",
-    "Assessment Methodologies.md",
+    "images/Pivoting Visualized.png",
     "images/Frequently Exploited Windows Services.png",
     "images/Frequently Exploited Linux Services.png",
     "images/MSF Module Variables.png",
