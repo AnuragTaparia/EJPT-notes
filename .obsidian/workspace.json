@@ -4,31 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "658fa2350972d671",
+        "id": "9706a17a01aea99a",
         "type": "tabs",
         "children": [
           {
-            "id": "75233561b26758b7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "36c33d94875ce470",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "083b8a40228e22ed",
+            "id": "ea0b57c173bcfb84",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "privilege escalation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,11 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "083b8a40228e22ed",
+  "active": "ea0b57c173bcfb84",
   "lastOpenFiles": [
     "Host & Network Penetration Testing/System and Host Based Attacks.md",
     "Host & Network Penetration Testing/Exploitation.md",
     "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
+    "Assessment Methodologies.md",
+    "Pasted image 20240316173501.png",
+    "images/reverse shell.png",
+    "images/bind shell.png",
     "Host & Network Penetration Testing/Network Based Attacks.md",
     "Host & Network Penetration Testing",
     "course files by INE/Host and Network Penetration Testing/Exploitation/INE-Host-and-Network-Penetration-Testing-Exploitation-Course-File.zip",
@@ -183,7 +166,6 @@
     "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/Penetration Testing Exploitation Course File",
     "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/INE-Host-and-Network-Penetration-Testing-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Exploitation.pdf",
     "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/INE-Host-and-Network-Penetration-Testing-Exploitation-Course-File.zip",
-    "Assessment Methodologies.md",
     "images/Pivoting Visualized.png",
     "images/Frequently Exploited Windows Services.png",
     "images/Frequently Exploited Linux Services.png",

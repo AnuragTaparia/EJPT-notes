@@ -76,7 +76,8 @@
 - SMTP
 	- `auxiliary/scanner/smtp/smtp_version` -- for smtp version
 	- `auxiliary/scanner/smtp/smtp_enum` -- for smtp enum
-	- `nmap -sV -script banner 192.80.153.3` -- to give banner info
+	- `nmap -sV -script banner 192.80.153.3` -- to give banner info 
+	- or `nc 192.80.153.3 25`
 
 ---
 ---
