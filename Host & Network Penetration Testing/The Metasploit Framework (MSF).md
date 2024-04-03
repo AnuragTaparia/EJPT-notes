@@ -129,6 +129,8 @@
 - Winrm
 	- `auxiliary/scanner/winrm/winrm_login`
 	- `auxiliary/scanner/winrm/winrm_cmd`
+	- `exploit/windows/winrm/winrm_script_exec`
+		- `set force_vbs true`
 - Apache V58.5.19
 	- `exploit/multui/http/tomcat_jsp_upload_bypass`
 	- `set payload java/jsp_shell_bind_tcp`

