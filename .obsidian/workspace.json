@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea0b57c173bcfb84",
+            "id": "05cfdde55596e3f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9565f140e8d9bab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Host & Network Penetration Testing/Social Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Host & Network Penetration Testing/Post Exploitation.md",
+                "file": "Host & Network Penetration Testing/Social Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Host & Network Penetration Testing/Post Exploitation.md",
+                "file": "Host & Network Penetration Testing/Social Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Host & Network Penetration Testing/Post Exploitation.md"
+                "file": "Host & Network Penetration Testing/Social Engineering.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,28 +160,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea0b57c173bcfb84",
+  "active": "9565f140e8d9bab7",
   "lastOpenFiles": [
-    "Host & Network Penetration Testing/System and Host Based Attacks.md",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Social Engineering Fundamentals.pptx",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Penetration Testing and Social Engineering.pptx",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Let_s GoPhishing!.pptx",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Host and Network Penetration Testing Social Engineering Course Files.zip",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Course Conclusion.pptx",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Course Introduction.pptx",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering/Case Studies.pptx",
+    "course files by INE/Host and Network Penetration Testing/Social Engineering",
+    "course files by INE/Host and Network Penetration Testing/Host and Network Penetration Testing Social Engineering Course Files/Host and Network Penetration Testing Social Engineering Course Files.zip",
+    "course files by INE/Host and Network Penetration Testing/Host and Network Penetration Testing Social Engineering Course Files/Social Engineering Fundamentals.pptx",
+    "course files by INE/Host and Network Penetration Testing/Host and Network Penetration Testing Social Engineering Course Files/Penetration Testing and Social Engineering.pptx",
     "Host & Network Penetration Testing/Post Exploitation.md",
+    "Host & Network Penetration Testing/Social Engineering.md",
     "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
-    "images/Post-Exploitation Methodology.png",
-    "Host & Network Penetration Testing/Exploitation.md",
-    "course files by INE/Host and Network Penetration Testing/Post-Exploitation/Post-Exploitation.pdf",
-    "course files by INE/Host and Network Penetration Testing/Post-Exploitation/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.zip",
-    "course files by INE/Host and Network Penetration Testing/Post-Exploitation/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.pdf",
-    "course files by INE/Host and Network Penetration Testing/Post-Exploitation",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.zip",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File.pdf",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/__MACOSX/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/__MACOSX",
-    "course files by INE/Host and Network Penetration Testing/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File/INE-Host-and-Network-Penetration-Testing-Post-Exploitation-Course-File",
-    "images/reverse shell.png",
-    "Reverse Shell.png",
-    "Assessment Methodologies.md",
+    "this.md",
     "images/bind shell.png",
+    "images/reverse shell.png",
+    "Host & Network Penetration Testing/System and Host Based Attacks.md",
+    "Assessment Methodologies.md",
+    "images/Anatomy Of A Cron Job.png",
+    "images/Post-Exploitation Methodology.png",
     "Host & Network Penetration Testing/Network Based Attacks.md",
+    "Host & Network Penetration Testing/Exploitation.md",
+    "Reverse Shell.png",
     "images/Pivoting Visualized.png",
     "images/Frequently Exploited Windows Services.png",
     "images/Frequently Exploited Linux Services.png",

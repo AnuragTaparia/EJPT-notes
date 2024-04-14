@@ -50,7 +50,7 @@
 	run
 - `hashdump` -- run in meterpreter
 - `shell` -- to go to the shell
-- `john [HashFILE]--wordlist=/home/anurag/Downloads/rockyou.txt --format:NT ` -- to crack hashdump
+- `john [HashFILE]--wordlist=/home/anurag/Downloads/rockyou.txt --format=NT ` -- to crack hashdump
 
 ###### Exploiting RDP
 - use metasploit to confirm the port which is using RDP
