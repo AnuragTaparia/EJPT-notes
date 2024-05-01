@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "05cfdde55596e3f8",
+            "id": "64f7d2cc4228d975",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Host & Network Penetration Testing/Post Exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a85020aa9c56e100",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "64f7d2cc4228d975",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assessment Methodologies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assessment Methodologies.md",
+                "file": "Host & Network Penetration Testing/Post Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assessment Methodologies.md",
+                "file": "Host & Network Penetration Testing/Post Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assessment Methodologies.md"
+                "file": "Host & Network Penetration Testing/Post Exploitation.md"
               }
             }
           }
@@ -162,12 +161,15 @@
   },
   "active": "64f7d2cc4228d975",
   "lastOpenFiles": [
+    "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
+    "Host & Network Penetration Testing/Post Exploitation.md",
     "ROOMS to practice.md",
     "Web Application Penetration Testing.md",
     "Host & Network Penetration Testing/System and Host Based Attacks.md",
-    "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
+    "Host & Network Penetration Testing/Network Based Attacks.md",
     "Assessment Methodologies.md",
-    "Host & Network Penetration Testing/Post Exploitation.md",
+    "images/Frequently Exploited Windows Services.png",
+    "images/Pivoting Visualized.png",
     "HTTP.md",
     "course files by INE/Intro to Web and HTTP Protocol Course Files/XSS Attack with XSSer.pdf",
     "course files by INE/Intro to Web and HTTP Protocol Course Files/Web and HTTP Protocol.pdf",
@@ -185,11 +187,8 @@
     "images/reverse shell.png",
     "images/Anatomy Of A Cron Job.png",
     "images/Post-Exploitation Methodology.png",
-    "Host & Network Penetration Testing/Network Based Attacks.md",
     "Host & Network Penetration Testing/Exploitation.md",
     "Reverse Shell.png",
-    "images/Pivoting Visualized.png",
-    "images/Frequently Exploited Windows Services.png",
     "images/Frequently Exploited Linux Services.png",
     "images/MSF Module Variables.png"
   ]

