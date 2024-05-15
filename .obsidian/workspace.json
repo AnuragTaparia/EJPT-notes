@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8f58811bbdb700f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROOMS to practice.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a85020aa9c56e100",
             "type": "leaf",
             "state": {
@@ -60,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hashdump",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,13 +174,13 @@
   },
   "active": "64f7d2cc4228d975",
   "lastOpenFiles": [
+    "Host & Network Penetration Testing/System and Host Based Attacks.md",
+    "ROOMS to practice.md",
     "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
     "Host & Network Penetration Testing/Post Exploitation.md",
-    "ROOMS to practice.md",
-    "Web Application Penetration Testing.md",
-    "Host & Network Penetration Testing/System and Host Based Attacks.md",
-    "Host & Network Penetration Testing/Network Based Attacks.md",
     "Assessment Methodologies.md",
+    "Web Application Penetration Testing.md",
+    "Host & Network Penetration Testing/Network Based Attacks.md",
     "images/Frequently Exploited Windows Services.png",
     "images/Pivoting Visualized.png",
     "HTTP.md",

