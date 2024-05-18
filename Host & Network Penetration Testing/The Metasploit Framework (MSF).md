@@ -197,7 +197,7 @@
 - Clearing Windows Event Logs
 	- you need elevated priv in order to clear event logs
 	- `clearev` -- will clear the logs (it is meterpreter cmd)
-- Pivoting 
+	- Pivoting 
 		- ![[Pivoting Visualized.png]] ^b2b32b
 	- once we have access to victim 1 add it's route to meterpreter by `run autoroute -s 10.10.10.0/24`
 	- we cannot scan nmap on victim 2 directly (only within msfconsole), we need to set up port forwarding. Port forwarding essentially allows us to afford the remote port 80 to our local port 1234 
