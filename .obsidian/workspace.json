@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROOMS to practice.md",
+                "file": "Host & Network Penetration Testing/System and Host Based Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assessment Methodologies.md",
+                "file": "Host & Network Penetration Testing/System and Host Based Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nikto",
+                "query": "rdesk",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROOMS to practice.md",
+                "file": "Host & Network Penetration Testing/System and Host Based Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROOMS to practice.md",
+                "file": "Host & Network Penetration Testing/System and Host Based Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROOMS to practice.md"
+                "file": "Host & Network Penetration Testing/System and Host Based Attacks.md"
               }
             }
           }
@@ -171,17 +173,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64f7d2cc4228d975",
+  "active": "8f58811bbdb700f8",
   "lastOpenFiles": [
-    "Web Application Penetration Testing.md",
-    "ROOMS to practice.md",
-    "Host & Network Penetration Testing/Post Exploitation.md",
-    "Assessment Methodologies.md",
-    "Host & Network Penetration Testing/Exploitation.md",
     "Host & Network Penetration Testing/System and Host Based Attacks.md",
+    "Assessment Methodologies.md",
+    "Host & Network Penetration Testing/Post Exploitation.md",
     "Host & Network Penetration Testing/The Metasploit Framework (MSF).md",
+    "ROOMS to practice.md",
+    "Host & Network Penetration Testing/Exploitation.md",
     "Host & Network Penetration Testing/Network Based Attacks.md",
     "images/Frequently Exploited Windows Services.png",
+    "Web Application Penetration Testing.md",
     "images/Pivoting Visualized.png",
     "HTTP.md",
     "course files by INE/Intro to Web and HTTP Protocol Course Files/XSS Attack with XSSer.pdf",
